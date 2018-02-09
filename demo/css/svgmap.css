@@ -1,0 +1,143 @@
+html {
+}
+
+body {
+    font-family: Geneva, Tahoma, "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+
+    html {
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
+    }
+}
+
+.st0 {
+    fill: #FCD118;
+    stroke: #646464;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: none;
+    stroke: #646464;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+#biblioteki {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#biblioteki h2 {
+    color: #73850e;
+    bo4rder-bottom: 2px dotted #f5d88a;
+    padding-bottom: 15px;
+}
+
+#biblioteki h3 {
+
+    color: #e42c26;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.interactive-map svg {
+    height: auto;
+    wi4dth: 550px;
+    margin: 0 auto;
+    display: block;
+    max-width: 600px;
+
+}
+
+.interactive-map g {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.interactive-map g:hover {
+    fill: #fc0 !important;
+    cursor: default;
+
+}
+
+.interactive-map polygon:hover {
+    fill: #94E56E !important;
+    cursor: default;
+
+}
+
+.info-popup {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 5px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    border: 1px solid #333;
+    color: #333;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding-right: 15px
+}
+
+.info-popup::first-line {
+    font-weight: bold;
+}
+
+.images {
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.images img {
+    width: auto;
+    height: 180px;
+    margin: 20px 20px;
+
+}
+
+.images img:first-child {
+    margin-right: 10px;
+}
+
+.images img:last-child {
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 30px 0 10px 0;
+    border-bottom: 0px
+}
+
+h3 {
+    text-align: center;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+}
+
+h4 {
+    text-align: center;
+    padding: 0px;
+    margin: 10px 0 20px 0;
+}
+
+.bibl_face {
+    width: 200px !important;
+    clear: both
+}
+
+.images * {
+    display: block !important;
+    clear: both !important;
+    margin: 20px auto 20px auto !important;
+    text-align: center !important;
+}
